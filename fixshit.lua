@@ -22,7 +22,7 @@ function onCreatePost()
   --debugPrint('ok')
 if boyfriendName == 'shaggy' then
 runHaxeCode([[
-    var smallBf = new Boyfriend(1047 - 135, 312 - 135, 'haggy');
+    var smallBf = new Boyfriend(1047 - 135, 312 - 135, 'shaggy');
     smallBf.cameras = [game.camHUD];
     smallBf.scale.set(0.45, 0.45);
     for(offset in smallBf.animOffsets)
